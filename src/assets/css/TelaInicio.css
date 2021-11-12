@@ -1,0 +1,131 @@
+
+
+:root{
+    --font-headline: "Ginto Nord","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    --brand: #0a0e37;
+    --brand-gradient: linear-gradient(90deg,#8ea1e1,#7289da);
+    --greyple: #99aab5;
+    --dark-not-black: #19191a;
+    --focus-border: #0008f4;
+    --status-green: #43b581;
+    --text-link: #00b0f4;
+    --off-white: #f6f6f6;
+    --white: #fff;
+    --not-quite-black: #141516;
+    --not-quite-black-rgb: 35,39,42;
+    --black: #000;
+    --ekko-red: #de2761;
+}
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+    margin: 0;
+    padding: 0;
+}
+div.header-telainicio{
+    
+    /* background-color: var(--not-quite-black); */
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.gamertag__logo{
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    width: 100px;
+}
+a{
+    margin-left: 10px;
+}
+.header-buttons{
+    display:flex;
+    list-style: none;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0) ;
+}
+.home-div{
+    justify-content:center;
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+section{
+    
+    padding: 60px 0 4rem;
+}
+.flex-component{
+    /* display: grid; */
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.component1{
+    color: var(--white)
+}
+.component2{
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+button{
+    margin: 20px;
+}
+.join-button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    color: rgb(19, 19, 19);
+    font-size:30px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255); 
+    transition: 0.2s ease;
+    width: 250px;
+}
+.join-button:hover{
+    filter: drop-shadow(0px 0px 3px var(--focus-border));
+    color: var(--brand);
+}
+.createAccount-button{
+    background-color: var(--dark-not-black);
+    padding: 10px 20px;
+    color:rgb(255, 255, 255);
+    font-size:32px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    transition: 0.2s ease;
+    border-radius: 40px;
+    width: 250px;
+}
+.createAccount-button:hover{
+    filter: drop-shadow(0px 0px 3px var(--focus-border));
+}
+li{
+    margin-right: 20px;
+}
+.title{
+    filter: drop-shadow(2px 2px 2px var(--focus-border));
+    margin-top: 1.2rem;
+    font-size:60px;
+}
+.description{
+    margin-top:3%;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 768px){
+    .flex-component{
+        display: grid;
+    }
+}

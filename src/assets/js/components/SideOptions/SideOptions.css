@@ -1,0 +1,50 @@
+.nav-sideopt{
+    width: 15%;
+    margin-top: 65px;
+    position: fixed;
+    left: 0;
+    margin-left: 2%;
+    /* float:right; */
+    display: block;
+}
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+    margin: 0;
+    padding: 0;
+}
+.user-opt{
+    margin-top: 15%;
+    text-align: center;
+    height:min-content;
+    display: flex;
+    align-items: center;
+    
+}
+.user-opt:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.nav-sideopt div.user-opt{
+    width: auto;
+}
+.nav-sideopt div.user-opt p{
+    margin-right: 2rem;
+    color: white;
+    font-size: 30px;
+}
+.user-logo2{
+    
+    margin-right: 2rem;
+    border: 0;
+}
+.nav-icon2{
+    align-items: center;
+    color: #3f7ad1;
+}
+.forum{
+    margin-right: 2rem;
+}
+.link{
+    display: flex;
+}

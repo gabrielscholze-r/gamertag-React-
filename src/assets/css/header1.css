@@ -1,0 +1,52 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+    margin: 0;
+    padding: 0;
+  }
+.header{
+    /* background-color: var(--not-quite-black); */
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+
+.gamertag__logo{
+    margin-left: 2rem;
+    padding: 10px 0;
+    width: 55px;
+}
+#join-header{
+    border-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px 15px;
+    border-width: 1px;
+    color: white;
+    border-radius: 20px;
+    background: none;
+    outline: 0;
+    transition: 0.2s ease;
+}
+#join-header:hover{
+    filter: drop-shadow(0px 0px 3px var(--focus-border));
+    border-color: var(--focus-border);
+}
+#register-header{
+    border-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px 15px;
+    border-width: 1px;
+    color: white;
+    border-radius: 20px;
+    background: none;
+    outline: 0;
+    transition: 0.2s ease;
+}
+#register-header:hover{
+    filter: drop-shadow(0px 0px 3px var(--focus-border));
+    border-color: var(--focus-border);
+}
+#join-header:hover{border-color: var(--focus-border);}

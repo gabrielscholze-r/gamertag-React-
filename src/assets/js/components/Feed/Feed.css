@@ -1,0 +1,21 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+    margin: 0;
+    padding: 0;
+  }
+.feed-grid{
+  background-color: transparent;
+    color: white;
+    margin-top: 65px;
+    margin-left: 10%;
+    margin-right: 15.1%;
+    display: block;
+    border:1px solid #ffffff;
+    height: min-content;
+    width: 50%;
+    border-top: 0;
+    padding: 10px; 
+    justify-content: left;
+    
+}

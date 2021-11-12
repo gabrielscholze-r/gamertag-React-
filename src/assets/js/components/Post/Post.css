@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.post-header{
+    
+    background-color: transparent;
+    border-top: 0;
+    border-radius: 2px;
+    padding: 2px 0;
+    padding-bottom: 0;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profilepic-user{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+}
+.text{
+    background-color: transparent;
+    margin-left: 5px;
+    font-size: 30px;
+    font-style: bold;
+}
+.post-image{
+    background-color: transparent;
+    width: 60%;
+}
+.post-img-container{
+    background-color: transparent;
+    width: 100%;
+    border-top: 1px solid rgb(46, 44, 54);
+    border-bottom: 1px solid rgb(46, 44, 54);
+    /* border: 1px solid white; */
+}
+.button-container{
+    background-color: transparent;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 2px;
+    align-items: center;
+    display: flex;
+}
+.unicon{
+    background-color: transparent;
+    cursor:pointer;
+}
+.counter-likomment{
+    margin-left: 5px;
+    background-color: transparent;
+}
+.legenda-foto{
+    padding: 5px;
+    word-break: break-all;
+    background-color: transparent;
+}
+.legenda{
+    flex: 1;
+    text-align: left;
+    border-top:none;
+    font-size: 25px;
+    background-color: transparent;
+}
+.post-container{
+    /* border: 1px solid rgb(46, 44, 54); */
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    margin-bottom: 20px;
+}
+.not-active{
+    display:none;
+}
+
+form.comment-section{
+    border-top: 1px solid rgb(46, 44, 54);
+    background-color: transparent;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.comment-input{
+
+    flex:1;
+    margin-left: 5px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin:0;
+    border: none;
+    padding: 0;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    height: min-content;
+  }
+input.comment-input:focus {
+    border: 1px solid #222fa3;
+    outline: none;
+    background: transparent;
+  }
+.postcomment-button{
+    border: 0;
+    color: white;
+    background-color: #222fa3;
+    padding: 2px 7px;
+    font-size: 17px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.postcomment-button:hover{
+    opacity: 0.7;
+}
+input.comment-input::placeholder{
+    font-size: 15px;
+    color: white;
+}
+.comment-img{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+.comment-text{
+    background-color: transparent;
+    margin-left: 15px;
+    font-size: 22px;
+    
+}
+.comment-info{
+    align-items: center;
+    display: flex;
+    text-align: left;
+}
+.comment-username{
+    background-color: transparent;
+    margin-left: 10px;
+    font-size: 25px;
+    font-style: normal;
+}
+.comment-component{
+    margin-top: 10px;
+    background-color: transparent;
+    border-top: 0;
+    border-radius: 2px;
+    padding: 5px 0;
+    padding-bottom: 0;
+    height: min-content;
+    text-align: left;
+    display: block;
+    align-items: center;
+    border-top: 1px solid rgb(46, 44, 54);
+}
+.legenda-style{
+    margin-top: 10px;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.poststyle-text{
+    padding:0 10px;
+    color: gray;
+    opacity: 0.7;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.likomment{
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+}
+.pic-name{
+    align-items: center;
+    display: flex;
+}
+
+
+.unfollow-button{
+    margin-right: 1rem;
+    cursor: pointer;
+    color: white;
+}
+.follow-button{
+    margin-right: 1rem;
+    cursor: pointer;
+    color: white;
+}

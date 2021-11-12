@@ -1,0 +1,103 @@
+:root{
+  --focus-border: #0008f4;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+.container-login {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.loginbox {
+  margin-top: 1rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 30rem;
+  border-radius: 20px;
+}
+h2 {
+  
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+input {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  margin-top: 26px;
+  padding-top: 15px;
+
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  transition: 0.1s;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 3px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+::placeholder {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.719);
+  font-weight: 100px;
+  position: absolute;
+}
+::placeholder:focus {
+  color: black;
+}
+
+.entrar {
+  display:  inline-flex;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.589);
+  color: white;
+  border-radius: 13px;
+  padding: 7px 20px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.entrar:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(105, 44, 125, 0.67);
+  font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+.cadastre-se{
+    font-size: 22px;
+    color: rgb(186, 179, 252);
+    transition: 0.2s;
+}
+.cadastre-se:hover{
+    font-size: 24px;
+    color: rgb(128, 122, 191);
+}
+.gamertag__logo{
+  transition: 0.2s ease;
+}
+.gamertag__logo:hover{
+  /* filter: drop-shadow(0px 0px 3px var(--focus-border)); */
+  opacity: 0.6;
+}
+p.error-message{
+  color: red;
+  font-size: 15px;
+}

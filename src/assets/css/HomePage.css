@@ -1,0 +1,40 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    /* flex-direction: row; */
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+}
+.header-fixed{
+    /* position: fixed; */
+}
+.SideOptions{
+    /* position: fixed;
+    float: left; */
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+div.news-post{
+    width: 25%;
+}
+div.news-post p{
+    word-wrap: break-all;
+}
+::-webkit-scrollbar{
+    width: .8rem;
+    background: #1f2029;
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3f7ad1;
+    border-radius: .5rem;
+}

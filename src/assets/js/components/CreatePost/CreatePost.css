@@ -1,0 +1,115 @@
+*{font-family: "Comic Sans MS", "Comic Sans", cursive;
+box-sizing: border-box;}
+
+
+.post-grid{
+    margin-top: 1rem;
+    border-bottom:1px solid #ffffff;
+    height: min-content;
+    width: 100%;
+    border-top: 0;
+    padding: 10px;
+    /* justify-content: left; */
+    /* text-align: center; */
+}
+  
+.post-box{
+    min-height: 5rem;
+    background-color: #090a11;
+    font-size: 20px;
+    color: white;
+    Word-wrap: break-Word;
+    Word-break: break-all;
+    text-align: left;
+    width: 100%;
+    height: 8rem;
+    outline: 0;
+    resize:vertical;
+    border:2px solid #2256a3;
+    max-height: 15rem;
+    overflow: auto;
+
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.post-box::placeholder{
+    font-size: 20px;
+    margin-left: 0.5%;
+}
+
+.post-box:hover{
+    border-color: #3db0e6;
+}
+.post-box:focus{
+    outline: 0;
+    border:2px solid #028d30
+}
+.post-button{
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-right: 100%;
+    font-size: 25px;
+    background-color: #227aa3;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.post-button:hover{
+    background-color: #abd3e6;
+    filter: drop-shadow(2px 2px 1px #000000);
+    border-radius: 0;
+}
+
+.post-text{
+    width: 100%;
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 1px black);
+    transition: 0.2s ease;
+}
+.post-text:hover{
+    filter: drop-shadow(2px 2px 0px rgb(6, 1, 94));
+}
+.input-file{
+    transition: 1s;
+    display: none;
+}
+.nav-image{
+    color: #227aa3;
+    margin: 5px;
+    cursor: pointer;
+}
+.nav-image:hover{
+    opacity: 0.7;
+}
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.selectbox-post{
+    padding: 2px;
+    font-size: 20px;
+    width: 180px;
+    height: min-content;
+    color: white;
+    background-color: #2256a3;
+    outline: 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+} 
+.selectbox-post:hover{
+    opacity: 0.7;
+}
+.wrapper{
+    height: 20px;
+}
+.input-file:valid +.nav-image{
+    color: green;
+} 
+.input-file:invalid +.nav-image{
+    display: auto;
+    color: #227aa3;
+}

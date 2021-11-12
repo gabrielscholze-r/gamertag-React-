@@ -1,0 +1,132 @@
+:root {
+  --focus-border: #0008f4;
+}
+
+*{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  
+  margin: 0;
+  padding: 0;
+}
+body{
+    background: black;
+}
+h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+.cadastrar {
+  justify-content: center ;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.589);
+  color: white;
+  border-radius: 13px;
+  padding: 7px 20px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.cadastrar:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(105, 44, 125, 0.67);
+}
+a {
+  text-decoration: none;
+}
+.cadastre-se {
+  font-size: 22px;
+  color: rgb(186, 179, 252);
+  transition: 0.2s;
+}
+.cadastre-se:hover {
+  font-size: 24px;
+  color: rgb(128, 122, 191);
+}
+.gamertag__logo1 {
+  margin-top: 1rem;
+  width: 100px;
+  transition: 0.2s ease;
+}
+.gamertag__logo1:hover {
+  filter: drop-shadow(0px 0px 3px var(--focus-border));
+  opacity: 0.8;
+}
+
+.title-cadastro{
+    margin-top: 3rem;
+    font-size: 40px;
+}
+input[type="date"]:not(.has-value):before{
+  content: "";
+  font-size: 20px;
+}
+
+
+/* .borndata-text{
+  justify-content: initial;
+  text-align:  center;
+  margin-top: 3rem;
+} */
+.data-text{
+  color: white;
+  margin-top: 1rem;
+  font-size: 30px;
+}
+
+.registerbox{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* width: auto; */
+}
+.register-container {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+input {
+  font-size: 30px;
+  width: 50%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  margin-top: 26px;
+  padding-top: 15px;
+
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  transition: 0.1s;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 3px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+::placeholder {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.719);
+  font-weight: 100px;
+  position: absolute;
+}
+::placeholder:focus {
+  color: black;
+}
+
+.data-input{
+  height: fit-content;
+  margin-top: 0;
+  font: 20px;
+}
